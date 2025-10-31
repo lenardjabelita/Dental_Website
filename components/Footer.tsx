@@ -10,7 +10,7 @@ export default function Footer() {
         </div>
         <div>
           <div className="font-medium text-slate-800">Hours</div>
-          <p>Mon • Wed • Fri • Sat<br/>11:00 am - 7:00 pm</p>
+          <p>Mon • Wed • Fri • Sat<br/>11:00 AM - 7:00 PM</p>
         </div>
         <div>
           <div className="font-medium text-slate-800">Contact</div>

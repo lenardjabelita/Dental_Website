@@ -5,8 +5,10 @@ import { usePathname } from "next/navigation";
 const links = [
   { href: "/", label: "Home" },
   { href: "/services", label: "Services" },
+  { href: "/insurance", label: "Insurance" },
   { href: "/contact", label: "Contact" },
 ];
+
 
 export default function Navbar() {
   const pathname = usePathname();
@@ -14,7 +16,7 @@ export default function Navbar() {
     <header className="sticky top-0 z-50 bg-white/80 backdrop-blur border-b border-slate-200">
       <nav className="mx-auto max-w-6xl px-4 py-3 flex items-center justify-between">
         <Link href="/" className="font-semibold text-lg">
-          <span className="text-teal-600">Dr. Abelita</span>{" "}
+          <span className="text-teal-600">Dr. Leo Abelita</span>{" "}
           <span className="text-slate-700">DMD</span>
         </Link>
         <ul className="flex items-center gap-6 text-sm">

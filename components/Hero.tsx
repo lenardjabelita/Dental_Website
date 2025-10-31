@@ -20,7 +20,7 @@ export default function Hero() {
           </div>
         </div>
         <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow">
-          <h3 className="font-semibold text-slate-900">Why patients choose us</h3>
+          <h3 className="font-semibold text-slate-900">Why patients choose us:</h3>
           <ul className="mt-4 space-y-3 text-slate-700">
             <li>• Compassionate, patient-first care</li>
             <li>• Timely emergency appointments when available</li>
