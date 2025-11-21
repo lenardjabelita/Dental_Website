@@ -2,8 +2,8 @@ import { ShieldCheck, CreditCard, HelpCircle } from "lucide-react";
 
 const INSURERS = [
   // ⬇️ Replace with your real list later
-  "Delta Dental", "MetLife", "Aetna", "Cigna",
-  "Blue Cross/Blue Shield", "Guardian", "Humana", "United Concordia"
+  "Aetna", "Cigna", "Delta Dental", "Dentical",
+  "GEHA", "Guardian", "Humana", "MetLife", "Mutual of Omaha", "Principal", "United Concordia"
 ];
 
 export default function Insurance() {
@@ -29,7 +29,7 @@ export default function Insurance() {
         </div>
 
         <p className="mt-4 text-sm text-slate-500">
-          Coverage varies by plan. Please call with your member ID so we can verify benefits before your visit.
+          Coverage varies by plan. Please call so we can verify benefits before your visit.
         </p>
       </div>
 

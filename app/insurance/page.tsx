@@ -14,7 +14,7 @@ export default function InsurancePage() {
             Call us and we’ll verify your benefits before your visit.
           </p>
         </div>
-
+        
         <Insurance />
       </div>
     </section>

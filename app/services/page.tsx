@@ -76,16 +76,7 @@ export default function ServicesPage() {
           </a>
         </div>
       </div>
-      <div className="mt-12 text-center">
-  <p className="text-slate-700">Questions about coverage or costs?</p>
-  <a
-    href="/insurance"
-    className="inline-block mt-4 rounded-md bg-teal-500 text-white px-6 py-3 font-medium shadow hover:bg-teal-600 transition"
-  >
-    View Insurance & Payment Info
-  </a>
-</div>
-
+      
     </section>
   );
 }

@@ -14,8 +14,6 @@
   --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
 }
 
-/* ❌ Delete the prefers-color-scheme: dark block entirely */
-
 /* Prefer Tailwind utilities over raw props */
 html, body { height: 100%; }
 body { @apply bg-white text-slate-800 antialiased; }
